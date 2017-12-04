@@ -8,9 +8,15 @@ class Product(Resource):
     def get(self):
         return {
             'products': [
-                'Ice cream',
-                'Chocolate',
-                'Fruit'
+                'The Razor\'s Edge',
+                '...And Justice For All',
+                'The Sickness',
+                'Highway to Hell',
+                'Houses of the Holy',
+                'Stiff Upper Lip',
+                'Creedence Clearwater Revival'
+
+
             ]
         }
 
